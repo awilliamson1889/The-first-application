@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!--<script src="scripts.js"></script>!-->
+    <div class="topnav">
+      <a class="active" href="employees.html">Employees</a>
+      <a href="departments.html">Departments</a>
+    </div>
+
+    <div>
+        <h2>Create Employee</h2>
+        <p>Name</p>
+        <input type="text" placeholder="Name" name="Name" class="edit"> <br>
+        <p>Surname</p>
+        <input type="text" placeholder="Surname" name="Surname" class="edit"> <br>
+        <p>Department</p>
+        <select class="select-css">
+            <option value="0">All</option>
+            <option value="1">Art</option>
+            <option value="2">Data Science</option>
+            <option value="3">Game Design</option>
+            <option value="4">Product Design</option>
+        </select>
+        <a href="add_department.html">New</a> <br>
+        <p>Date of Birth</p>
+        <input type="date" name="date" class="edit">
+        <p>Salary</p>
+        <input type="text" placeholder="Salary" name="Salary" class="edit"> <br>
+        <a class="my_button" href="employees.html">Cancle</a>
+        <button type="submit" class="my_button"><i class="save"></i>Save</button>
+
+    </div>
+
+
+</body>
+</html>

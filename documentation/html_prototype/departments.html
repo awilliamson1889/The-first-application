@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!--<script src="scripts.js"></script>!-->
+    <div class="topnav">
+      <a href="employees.html">Employees</a>
+      <a class="active" href="departments.html">Departments</a>
+    </div>
+
+    <div>
+        <input type="text" placeholder="Search by Department" name="search" class="edit">
+        <!--<button type="submit"><i class="search"  ></i>Search</button>!-->
+        <a href="#search" class="my_button">Search </a>
+    </div>
+
+    <div>
+        <a class="my_button" href="add_department.html">Add Department</a>
+    </div>
+
+    <div class="table_dark_department">
+        <table>
+        <tr><th>Department</th><th>Total Employees</th><th>Action</th></tr>
+            <tr><td>Art</td><td>1</td><td><a href="edit_department.html">Edit</a> | <a href="#confirm-modal2">Delete</a></td></tr>
+            <tr><td>Art</td><td>1</td><td><a href="edit_department.html">Edit</a> | <a href="#confirm-modal2">Delete</a></td></tr>
+            <tr><td>Art</td><td>1</td><td><a href="edit_department.html">Edit</a> | <a href="#confirm-modal2">Delete</a></td></tr>
+            <tr><td>Art</td><td>1</td><td><a href="edit_department.html">Edit</a> | <a href="#confirm-modal2">Delete</a></td></tr>
+        </table>
+    </div>
+
+    <div class="pagination department">
+        <span class="footer_part-span">Page <span class="first">1</span> of <span class="second">1</span></span>
+    </div>
+
+
+<div id="confirm-modal2" class="modalbackground">
+    <div class="modalwindow">
+        <h3>Please confirm delete department!</h3>
+        <a class="my_button" href="#Save">Save</a>
+        <a class="my_button" href="departments.html">Cancle</a>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="my-content">
+    <div class="topnav">
+      <a class="active" href="employees.html">Employees</a>
+      <a href="departments.html">Departments</a>
+    </div>
+
+    <div>
+        <input type="text" placeholder="Search by Name/Surname" name="search" class="edit">
+        <!--<button type="submit"><i class="search"  ></i>Search</button>!-->
+        <a href="#search" class="my_button">Search </a>
+    </div>
+
+
+    <div class="filters">
+        <p>Department</p>
+        <select class="select-css">
+            <option value="0">All</option>
+            <option value="1">Art</option>
+            <option value="2">Data Science</option>
+            <option value="3">Game Design</option>
+            <option value="4">Product Design</option>
+        </select>
+        <a class="my_button" href="add_employee.html">Add Employee</a>
+    </div>
+
+    <div class="table_dark">
+        <table>
+        <tr><th>Name</th><th>Surname</th><th>Department</th><th>Date of Birth</th><th>Salary</th><th>Action</th></tr>
+            <tr><td>Noel</td><td>Williamson</td><td>Art</td><td>12/07/1999</td><td>1500.00</td><td><a href="edit_employee.html">Edit</a> | <a href="view.html">View</a> | <a href="#confirm-modal1">Delete</a></td></tr>
+            <tr><td>Noel</td><td>Williamson</td><td>Art</td><td>12/07/1999</td><td>1500.00</td><td><a href="edit_employee.html">Edit</a> | <a href="view.html">View</a> | <a href="#confirm-modal1">Delete</a></td></tr>
+            <tr><td>Noel</td><td>Williamson</td><td>Art</td><td>12/07/1999</td><td>1500.00</td><td><a href="edit_employee.html">Edit</a> | <a href="view.html">View</a> | <a href="#confirm-modal1">Delete</a></td></tr>
+            <tr><td>Noel</td><td>Williamson</td><td>Art</td><td>12/07/1999</td><td>1500.00</td><td><a href="edit_employee.html">Edit</a> | <a href="view.html">View</a> | <a href="#confirm-modal1">Delete</a></td></tr>
+            <tr><td>Noel</td><td>Williamson</td><td>Art</td><td>12/07/1999</td><td>1500.00</td><td><a href="edit_employee.html">Edit</a> | <a href="view.html">View</a> | <a href="#confirm-modal1">Delete</a></td></tr>
+    </table>
+    </div>
+
+    <div class="pagination employee">
+        <span class="footer_part-span">Page <span class="first">1</span> of <span class="second">1</span></span>
+    </div>
+
+
+<div id="confirm-modal1" class="modalbackground">
+    <div class="modalwindow">
+        <h3>Please confirm delete employee!</h3>
+        <a class="my_button" href="#Save">Save</a>
+        <a class="my_button" href="employees.html">Cancle</a>
+    </div>
+</div>
+</div>
+</body>
+</html>
